@@ -1,4 +1,10 @@
-nav ul{
+body { 
+	background-image: url("https://static.invenglobal.com/upload/image/2020/03/11/o1583953980225851.jpeg");
+}
+
+nav ul{	
+	padding: 0;
+	margin: 0;
 	display:flex;
 	width:100%;
 	height:100%;
@@ -7,7 +13,38 @@ nav li {
 	display: flex;
 	text-decoration: none;
 	list-style-type: none;
-	background-color: gray;
-	width: 50vh;
-	height: 5vh;
+	background-color: Blue;
+	width: 50vw;
+	height: 50px;
+}
+nav a{
+	text-decoration: none;
+	width:100%;
+	height:100%;
+	text-align: center;
+	line-height:5vh;
+	text-transform: uppercase;
+	font-family: calibri;
+	font-weight: bold;
+	color: gold;
+}
+h1, h2{
+	text-align: center;
+	background-color: blue;
+	margin-left: 30vw;
+	margin-right: 30vw;
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	border-radius: 50px;
+	font-size: 40px;
+	padding: 20px; 
+	color: gold;
+}
+p{
+	text-align: center;
+	margin-left: 35vw;
+	margin-right: 35vw;
+	margin-bottom: 5vh;
+	margin-top: 5vh;
+	background-color:white
 }
