@@ -60,9 +60,29 @@ form{
 	margin-right: 100px;
 	padding: 20px;
 	background-color: white;
-	text-align: center;
 }
+
+div{
+    display:grid;
+    height:0;
+    grid-template-rows:95vh 95vh;
+    grid-template-areas:'s1 s2';
+}   
+
+section:nth-child(1){
+    grid-area:s1;
+    background-image:url("https://images.dexerto.com/uploads/thumbnails/_thumbnailLarge/faker-league-of-legends-goat.jpg");
+}
+section:nth-child(2){
+	grid-area: s2;
+    background-image:url("https://gamepedia.cursecdn.com/lolesports_gamepedia_en/thumb/a/aa/S2worldtpa.png/800px-S2worldtpa.png?version=ab9068b691644636e90476b84911709a" )
+
+}
+
 .nära{
 	margin-bottom: 0;
 	margin-top: 10px;
+}
+.active{
+	background-color:black;
 }
